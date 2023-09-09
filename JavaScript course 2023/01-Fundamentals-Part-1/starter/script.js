@@ -5,7 +5,7 @@ console.log(42 - 411 + 31);
 
 let firstName = "Andres"
 console.log(firstName)
-
+*/
 
 // Values and Variables
 let country = "Colombia"
@@ -17,10 +17,12 @@ console.log( population)
 
 // Data Types
 let isIsland = false;
-let lenguage;
-
 console.log(typeof country)
 console.log(typeof population)
 console.log(typeof isIsland)
-console.log(typeof lenguage)
-*/
+
+// let, const and var
+const lenguage = "Spanish";
+// lenguage = "English" // ERROR. Assignment to constant variable
+
+
