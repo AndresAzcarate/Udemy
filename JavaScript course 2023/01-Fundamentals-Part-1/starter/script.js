@@ -62,11 +62,25 @@ const heightMark = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
 
-const markBMI = massMark / (heightMark ** 2);
+const markBMI = massMark / heightMark ** 2; // or massMark / (heightMark * heightMark)
 console.log("Mark's BMI " + markBMI);
-const johnBMI = massJohn / (heightJohn ** 2);
+const johnBMI = massJohn / heightJohn ** 2;
 console.log("John's BMI " + johnBMI);
 
 const markHeigherBMI = markBMI > johnBMI;
 console.log(markHeigherBMI);
+
+// Strings and Template Literals
+const firstName = "Sebas";
+const job = "QA Automation";
+const birthYear = 1997;
+const year = 2023;
+const sebas = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + '!';
+console.log(sebas);
+const andres = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`
+console.log(andres);
+
+let description = `Portugal is in Europe, and its 11 millions people speak portuguese`;
+console.log(description);
 */
+// 
