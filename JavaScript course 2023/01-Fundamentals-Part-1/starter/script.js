@@ -82,5 +82,10 @@ console.log(andres);
 
 let description = `Portugal is in Europe, and its 11 millions people speak portuguese`;
 console.log(description);
-*/
-// 
+
+// CHALLENGE #2
+if(BMIMark>BMIJohn) {
+  console.log(`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`);
+}else{
+  console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`);
+  */
